@@ -1,7 +1,7 @@
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
 
-public class Main {
+public class MainClass {
     public static final int CARS_COUNT = 4;
     public static void main(String[] args) {
         System.out.println("ВАЖНОЕ ОБЪЯВЛЕНИЕ >>> Подготовка!!!");
@@ -17,6 +17,9 @@ public class Main {
         System.out.println("ВАЖНОЕ ОБЪЯВЛЕНИЕ >>> Гонка закончилась!!!");
     }
 }
+
+
+
 /*
     Пример выполнения кода до корректировки:
 
